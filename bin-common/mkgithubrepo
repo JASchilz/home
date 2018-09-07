@@ -1,0 +1,4 @@
+#!/bin/sh
+
+curl -u $GITHUB_USERNAME:$GITHUB_CREATE_REPO_API_KEY --header "Content-Type: application/json" --request POST --data "{\"name\": \"$1\", \"description\": \"$2\"}" https://api.github.com/user/repos
+
