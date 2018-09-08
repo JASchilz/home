@@ -1,4 +1,4 @@
-export PATH=$HOME/bin-common:$PATH
+export PATH=$HOME/bin:$HOME/bin-common:$PATH
 
 source $HOME/.secrets/secrets.sh
 source $HOME/.local/.bashrc
